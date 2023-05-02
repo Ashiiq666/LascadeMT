@@ -131,7 +131,15 @@ class SearchFragment : Fragment() {
     private fun handleTabSelection(tab: TabLayout.Tab?, isTabSelected: Boolean) {
         val tabView: View? = tab?.customView
         val tabText: TextView? = tabView?.findViewById(R.id.tabText)
-        tabText?.setTextColor(Color.parseColor(if (isTabSelected) "#000000" else "#677279"))
+        tabText?.apply {
+            alpha = if (isTabSelected) {
+                setTextColor(Color.parseColor("#000000"))
+                1f
+            } else {
+                setTextColor(Color.parseColor("#677279"))
+                0.7f
+            }
+        }
     }
 
     private fun showLoader(b: Boolean) {
