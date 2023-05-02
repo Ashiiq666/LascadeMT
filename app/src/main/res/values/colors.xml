@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#171821</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="windowBackground">#171821</color>
+    <color name="bottomColor">#10101B</color>
+    <color name="SearchColor">#252532</color>
+    <color name="primaryColor">#57C1AB</color>
+    <color name="transparent">#00000000</color>
+    <color name="tabTextColor">#677279</color>
+    <color name="tabLayoutSeparator">#DEDEDE</color>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.LascadeMT" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/windowBackground</item>
+        <item name="colorPrimaryVariant">@color/windowBackground</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color.statusBarColor -->
+        <item name="colorSecondary">@color/windowBackground</item>
+        <item name="colorSecondaryVariant">@color/windowBackground</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:statusBarColor">@color/windowBackground</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
